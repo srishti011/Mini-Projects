@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" sizes="16x16" type="images/ico" />
+    <title>Microsoft - Cloud, Computers, Apps & Gaming</title>
+</head>
+
+<body>
+    <div class="navbar flex justify-between items-center px-2 md:-pt-6 md:pl-12">
+        <div class="flex justify-center items-center md:order-2">
+            <div class="hamburger inline-block cursor-pointer md:hidden">
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            </div>
+            <div class="search w-5 mx-6 md:hidden"><img src="assets/search.svg" alt=""></div>
+        </div>
+        <div class="logo text-center flex md:order-1">
+            <div class="p-4 w-36 flex justify-center"><img src="assets/mslogo.png" alt=""></div>
+            <div
+                class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white
+                md:items-center md:text-sm
+                        inset-0 md:flex md:mx-4 md:space-x-3 -translate-x-96 md:translate-x-0">
+                <div class="fitem">Microsoft 365</div>
+                <div class="fitem">Teams</div>
+                <div class="fitem">Windows</div>
+                <div class="fitem">Surface</div>
+                <div class="fitem">Xbox</div>
+                <div class="fitem">Support</div>
+            </div>
+        </div>
+        <div class="logo text-center md:order-3 flex">
+            <div class="search hidden md:block text-sm">All Microsoft</div>
+            <div class="w-4 mx-8 mt-1 mr-10"> <img src="assets/search.svg" alt=""></div>
+            <div class="w-12 h-4"><img src="assets/cart icon.svg" alt=""></div>
+            <div class="w-12 h-4"><img src="assets/account icon.svg" alt=""></div>
+        </div>
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row mx-1 md:bg-[#f2f2f2]">
+        <div class="left flex flex-col md:items-baseline py-12  md:py-36 md:pl-12 -my-5">
+            <h1 class="text-2xl font-medium mx-6 ">Surface Laptop 5</h1>
+            <p class=" md:text-left my-2 mx-6">
+                Sophisticated style and multitasking speed powered by 12th Gen Intel®
+                Core, with Windows 11
+            </p>
+            <button class="text-white font-bold bg-blue-700 p-2 px-4 mx-6 my-3 self-start">Learn more</button>
+        </div>
+        <div class="right">
+            <img class="w-[60rem] mx-auto md:w-[64rem]" src="assets/ms.webp" alt="" />
+        </div>
+    </div>
+
+    <div class="promo md:justify-center">
+        <div class="item md:flex justify-around md:flex-wrap mx-auto my-6">
+            <div class="item-1 flex flex-col justify-center items-center ">
+                <img src="assets/ic1.png" alt="">
+                <p class="text-blue-700 text-lg font-medium underline mb-9 mt-3">Choose your Microsoft 365</p>
+            </div>
+            <div class="item-1 flex flex-col justify-center items-center ">
+                <img src="assets/ic2.webp" alt="">
+                <p class="text-blue-700 text-lg font-medium underline mb-9 mt-3">Explore Surface devices</p>
+            </div>
+            <div class="item-1 flex flex-col justify-center items-center ">
+                <img src="assets/ic3.webp" alt="">
+                <p class="text-blue-700 text-lg font-medium underline mb-9 mt-3">Buy Xbox games and consoles</p>
+            </div>
+            <div class="item-1 flex flex-col justify-center items-center ">
+                <img src="assets/ic4.png" alt="">
+                <p class="text-blue-700 text-lg font-medium underline mb-9 mt-3">Get Windows 11</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
